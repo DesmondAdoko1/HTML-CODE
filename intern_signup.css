@@ -1,0 +1,17 @@
+body{
+    background-color: turquoise;
+    text-align: justify;
+    text-decoration-color: yellow;
+
+}
+
+.signin{
+    font-size: medium;
+    font-style: italic;
+    text-emphasis-color: yellow;
+
+}
+
+p{
+    color: yellow;
+}

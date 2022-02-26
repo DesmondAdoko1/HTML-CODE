@@ -1,0 +1,107 @@
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content= 
+"width=device-width, initial-scale=1.0"> 
+  
+    <link rel="stylesheet" href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font 
+    -awesome/4.7.0/css/font-awesome.min.css"> 
+      
+    <title>GFG Hamburger Menu Tutorial</title> 
+  
+    <style> 
+        .container { 
+            max-width: 480px; 
+            height: 500px; 
+            background: #5555; 
+            margin: auto; 
+            border: 2px solid green; 
+        } 
+  
+        .navbar { 
+            background: white; 
+            position: relative; 
+        } 
+  
+        .links { 
+            display: none; 
+        } 
+  
+        .heading a:nth-child(2) { 
+            color: green; 
+            text-decoration: none; 
+            font-size: 20px; 
+            display: block; 
+            padding: 7px; 
+            margin-left: 150px; 
+        } 
+  
+        .heading a i { 
+            color: green; 
+            padding: 10px; 
+            display: block; 
+            position: absolute; 
+            left: 0; 
+            top: 0; 
+        } 
+  
+        .heading a i:hover { 
+            background-color: rgb(0, 0, 0); 
+            color: rgb(255, 255, 255); 
+        } 
+  
+        .links { 
+            background-color: rgb(190, 196, 190); 
+        } 
+  
+        .links a { 
+            color: green; 
+            padding: 5px 16px; 
+            text-decoration: none; 
+            font-size: 17px; 
+            display: block; 
+            text-align: center; 
+            border-bottom: 1px solid white; 
+        } 
+  
+        .links a:hover { 
+            background-color: green; 
+            color: white; 
+        } 
+    </style> 
+</head> 
+  
+<body> 
+    <div class="container"> 
+        <div class="navbar"> 
+            <div class="heading"> 
+                <a href="#hamburger-icon" onclick="gfgMenu()"> 
+                    <i class="fa fa-bars"></i> 
+                </a> 
+                <a href="#Home"> Geeks For Geeks </a> 
+            </div> 
+            <div class="links"> 
+                <a href="#gfg1"> Notes </a> 
+                <a href="#gfg2"> Algorithm </a> 
+                <a href="#gfg3"> Maths </a> 
+                <a href="#gfg4"> Data Structure </a> 
+                <a href="#gfg5"> Java </a> 
+            </div> 
+        </div> 
+    </div> 
+  
+    <script> 
+        function gfgMenu() { 
+            const GFG = document.querySelector('.links'); 
+  
+            if (GFG.style.display === "none") { 
+                GFG.style.display = "block"; 
+            } 
+            else { 
+                GFG.style.display = "none"; 
+            } 
+        } 
+    </script> 
+</body> 
+  
+</html>

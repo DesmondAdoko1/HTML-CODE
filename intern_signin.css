@@ -1,0 +1,25 @@
+body{
+    font-style: normal;
+    background-color: rgb(4, 107, 110);
+    text-align: center;
+    background-image: linear-gradient(to right, blue,turquoise);
+}
+h1{
+    font-style: italic;
+    text-transform: unset;
+    color: palevioletred;
+}
+p{
+    color: red;
+    font-size: medium;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    color: rgb(243, 8, 8) ;
+    text-align: center;
+    border-radius: 10%;
+}
+a{
+    color: white;
+}

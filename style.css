@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to bottom, purple, pink);
+    background: url("../images/desphone.png");
+    background-size: cover;
+    font-size: 1.5em;
+}
+.title {
+    color: red;
+    font-style: oblique;
+}
+
+#contact-us{
+    color: blue;
+}
+li :nth-child(2){
+    color: blue;
+
+}
+#simple-form:link {
+    color: blue;
+}
+#simple-form:visited{
+    color: red;
+}
+li:nth-child(2){
+    color: blueviolet;
+}
+ul>li{
+    color: pink;
+}
+ol>li{
+    color: saddlebrown;
+}
+
+img [src="img.png"] {
+    border: tomato 10px;
+}
+
+.subtitle {
+    color: rgb(200, 58, 50);
+}
+.para-text {
+    color: rgb(200, 200, 2);
+}

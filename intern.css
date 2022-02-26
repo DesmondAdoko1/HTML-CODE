@@ -1,0 +1,46 @@
+body{
+    background-color: darkgrey;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    /*background-image: url(descorp.PNG);
+    background-image: initial; */
+}
+h1{
+    color: yellow;
+    text-decoration: underline;
+    text-align: center;
+}
+h2{
+    color: blue;
+    text-decoration: dashed;
+}
+button{
+    color: dodgerblue;
+    size: 20%;
+}
+.search{
+    align-content: flex-end;
+    text-align: right;
+}
+.paragraph{
+    color: red;
+}
+.copy{
+    text-align: center;
+    font-style: italic;
+    color: rgb(47, 0, 255);
+}
+.signup{
+    color: blue;
+    font-style: italic;
+}
+.socials{
+    display: inline;
+    margin-left: auto;
+}
+nav{
+    color: red;
+}
+#navbar{
+    color: red;
+}

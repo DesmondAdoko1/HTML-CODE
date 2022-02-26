@@ -1,0 +1,16 @@
+body{
+    color: blue;
+    font-size: medium;
+    font-style: italic;
+}
+
+.name {
+    color: red;
+
+}
+
+#life{
+    color: purple;
+    font-weight: bolder;
+    align-self: center;
+}

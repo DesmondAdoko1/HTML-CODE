@@ -1,0 +1,11 @@
+body{
+    background: paleturquoise;
+
+}
+
+#name {
+    font: bolder;
+    font-style: italic;
+    font-stretch: expanded;
+    color : rgb(241, 255, 43);
+}

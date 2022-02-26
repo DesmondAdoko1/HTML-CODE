@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="intern_signup.css">
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
+    <script src="interncafe.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="Signin">
+        <p>FIRST NAME</p>
+        <input type="text" placeholder="FIRSTNAME" id = "firstname"> <br>
+        <p>SUR NAME</p>
+        <input type="text" placeholder=" SURNAME" id = "surname"><br>
+        <p>USERNAME</p>
+        <input type="text" placeholder="USERNAME" id = "USERNAME"><br>
+        <p>GENDER</p>
+        <form action="method">
+            FEMALE
+            <input type="radio" name="femaleormale" id="femalegender">
+            MALE
+            <input type="radio" name="femaleormale" id="malegender">
+        </form><br>
+        <p>DATE OF BIRTH</p>
+        <input type="date" name="dob" id="dob"><br>
+        <p>EMAIL</p>
+        <input type="email" name="" id="email" placeholder="johnnydepp@gmail.com"><br>
+        <p>PHONE</p>
+        <input type="tel" name="PHONE" id="PHONE" placeholder="+256-000-000-000"><br>
+        <p>NEW PASSWORD</p>
+        <input type="password" name="" id="password" placeholder="New Password"><br>
+        <p>CONFIRM PASSWORD</p>
+        <input type="password" name="" id="password" placeholder="verify password"><br>
+        <!-- <form action="Method">
+            <button></button>
+        </form><br> -->
+        <p>I agree to the terms and conditions of Intern Cafe</p>
+        <form action="method">
+            Agree
+            <input type="checkbox" name="agree" id="check">
+        </form> <br>
+        <button type="submit"onclick="signup()">SUBMIT FORM </button><br>
+        <a href="https://www.interncafeterms.com"> TERMS AND CONDITIONS</a>
+    </div>
+</body>
+</html>
